@@ -2,7 +2,7 @@
 
 系统学习&巩固基础
 
-## 学习笔记
+## 学习笔记 ([在线预览](https://favers.github.io/node-learn/))
 
 - [x] [用法与列子](./docs/hello.md)
 - [ ] [Assert(断言)](./docs/assert.md)
