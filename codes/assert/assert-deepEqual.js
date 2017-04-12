@@ -1,31 +1,3 @@
-# assert(断言)
-
-## assert(value[,message])
-assert.ok()的别名
-
-```
-const assert = require('assert');
-
-assert(true);
-// 通过
-assert(1);
-// 通过
-assert(false);
-// 抛出 "AssertionError: false == true"
-assert(0);
-// 抛出 "AssertionError: 0 == true"
-assert(false, '不是真值');
-// 抛出 "AssertionError: 不是真值"
-```
-
-[code](../codes/assert/assert.js)
-
-## assert.deepEqual(actual, expected[, message])
-测试actual和expected参数是否深度相等
-
-只比较可枚举自身属性。忽略对象原型、链接符、不可枚举的属性。
-
-```
 const assert = require('assert');
 
 // 不会抛出AssertionError
@@ -65,6 +37,3 @@ assert.deepEqual(obj1, obj3);
 // AssertionError: { a: { b: 1 } } deepEqual {}
 // 原型被忽略
 assert.deepEqual(obj1, obj4);
-```
-
-[code](../codes/assert/assert-deepEqual.js)
