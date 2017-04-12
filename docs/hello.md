@@ -25,4 +25,4 @@ server.listen(port,host,()=>{
 ```
 运行`node hello.js`
 
-[code](./codes/hello/hello.js)
+[code](../codes/hello/hello.js)
