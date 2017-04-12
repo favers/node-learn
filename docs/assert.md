@@ -3,7 +3,7 @@
 ## assert(value[,message])
 assert.ok()的别名
 
-```
+```javascript
 const assert = require('assert');
 
 assert(true);
@@ -25,7 +25,7 @@ assert(false, '不是真值');
 
 只比较可枚举自身属性。忽略对象原型、链接符、不可枚举的属性。
 
-```
+```javascript
 const assert = require('assert');
 
 // 不会抛出AssertionError

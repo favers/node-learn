@@ -7,7 +7,7 @@ node [options] [v8 options] [script.js | -e "script"] [arguments]
 
 ## 例子
 简易web服务器
-```
+```javascript
 const http = require('http');
 
 const host = '127.0.0.1';
