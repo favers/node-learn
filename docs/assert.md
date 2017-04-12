@@ -21,7 +21,7 @@ assert(false, '不是真值');
 [code](../codes/assert/assert.js)
 
 ## assert.deepEqual(actual, expected[, message])
-测试actual和expected参数是否深度相等
+测试actual和expected参数是否深度相等。原始使用相等运算符(==)比较。
 
 只比较可枚举自身属性。忽略对象原型、链接符、不可枚举的属性。
 
@@ -68,3 +68,5 @@ assert.deepEqual(obj1, obj4);
 ```
 
 [code](../codes/assert/assert-deepEqual.js)
+
+## assert.deepStrictEqual(actual, expected[, message])
