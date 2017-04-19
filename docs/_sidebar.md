@@ -19,7 +19,7 @@
 - [Module(模块)](module.md)
 - [Net(网络)](net.md)
 - [Path(路径)](path.md)
-- [Process(进程)](Process.md)
+- [Process(进程)](process.md)
 - [Punycode](punycode.md)
 - [Query Strings(查询字符串)](query-strings.md)
 - [Readline(逐行读取)](readline.md)
