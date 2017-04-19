@@ -24,5 +24,3 @@ server.listen(port,host,()=>{
 })
 ```
 运行`node hello.js`
-
-[code](https://github.com/favers/node-learn/blob/master/codes/hello/hello.js)

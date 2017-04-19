@@ -18,8 +18,6 @@ assert(false, '不是真值');
 // 抛出 "AssertionError: 不是真值"
 ```
 
-[code](https://github.com/favers/node-learn/blob/master/codes/assert/assert.js)
-
 ## assert.deepEqual(actual, expected[, message])
 测试actual和expected参数是否深度相等。原始使用相等运算符(==)比较。
 
@@ -66,7 +64,5 @@ assert.deepEqual(obj1, obj3);
 // 原型被忽略
 assert.deepEqual(obj1, obj4);
 ```
-
-[code](https://github.com/favers/node-learn/blob/master/codes/assert/assert-deepEqual.js)
 
 ## assert.deepStrictEqual(actual, expected[, message])
