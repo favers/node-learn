@@ -9,7 +9,7 @@
 
 __dirname 实际上不是一个全局变量，而是每个模块内部的。
 
-```
+```js
 const path = require('path');
 
 console.log(__dirname);
@@ -20,7 +20,7 @@ console.log(path.dirname(__filename));
 当前模块的文件名。
 
 __filename 实际上不是一个全局变量，而是每个模块内部的。
-```
+```js
 console.log(__filename);
 console.log(__dirname);
 ```
