@@ -38,7 +38,7 @@
 - [ ] [TTY(终端)](./docs/tty.md)
 - [ ] [UDP/Datagram(数据报)](./docs/udp.md)
 - [x] [URL](./docs/url.md)
-- [ ] [Util(实用工具)](./docs/util.md)
+- [x] [Util(实用工具)](./docs/util.md)
 - [x] [V8](./docs/v8.md)
 - [ ] [VM(虚拟机)](./docs/vm.md)
 - [ ] [ZLIB(压缩)](./docs/zlib.md)
