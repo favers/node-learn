@@ -3,7 +3,9 @@ Node.js自带了各种命令行选项。终端查看文档`man node`。
 
 ## 概要
 `node [options] [v8 options] [script.js | -e "script"] [arguments]`
+
 `node debug [script.js | -e "script" | <host>:<port>] …`
+
 `node --v8-options`
 
 执行时不带参数，会启动REPL。

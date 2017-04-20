@@ -1,1 +1,1 @@
-# query strings(查询字符串)
+# Query Strings(查询字符串)

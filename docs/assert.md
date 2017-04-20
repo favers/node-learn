@@ -1,4 +1,4 @@
-# assert(断言)
+# Assert(断言)
 
 ## assert(value[,message])
 assert.ok()的别名
@@ -80,6 +80,7 @@ assert.deepStrictEqual({ a: 1 }, { a: '1' });
 
 ## assert.doesNotThrow(block[, error][, message])
 断言block函数不会抛出错误。
+
 如果抛出错误且错误类型与error参数指定的相同，则抛出AssertionError。 
 ```javascript
 const assert = require('assert');
